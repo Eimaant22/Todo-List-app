@@ -1,0 +1,148 @@
+body {
+    
+    box-sizing: border-box;
+    font-family: cursive;
+    background-image:url("https://img.freepik.com/free-vector/gradient-purple-striped-background_23-2149544713.jpg?w=996&t=st=1721039910~exp=1721040510~hmac=2b02fd529a668377cad770061ba5b2c696f8e5a1e17d3b0dc2ff1e891f20cc65");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 2rem;}
+   
+    
+h1{
+   
+        color: darkgoldenrod;
+        font-family:cursive;
+        font-size: 4rem;
+        margin-left: 2rem;
+}
+#menu {
+  margin-left: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 18rem;
+    height: 4rem;
+    margin: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 2rem;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+button:hover{
+    filter: brightness(0.9);
+}
+
+button:nth-child(1){
+    background-color: rgb(36, 158, 174);
+}
+button:nth-child(2){
+    background-color: rgb(211, 82, 183);
+}
+button:nth-child(3){
+    background-color: rgb(159, 116, 24)
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+}
+.section {
+    display: none;
+}
+h2{
+    color: rgb(182, 136, 38);
+    font-size: 30px;
+
+}
+label{
+    color: pink;
+    font-size: 21px;
+    margin: 6px;
+}
+input{
+    height: 41px;
+    background-color: #f8d5c9;
+    outline: none;
+    border-radius: 20px;
+    width: 32rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    padding: 6px 7px;
+    color: black;
+}
+.btn{
+    width: 10rem;
+    height: 3rem;
+    margin: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 17px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 8rem;
+    font-family: cursive;
+    font-size: 17px;
+    background-color: rgb(211, 82, 183);}
+    .btn2{
+        width: 10rem;
+        height: 3rem;
+        margin: 15px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 17px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+        margin-left: 8rem;
+        font-family: cursive;
+        font-size: 17px;
+        background-color: rgb(211, 82, 183);}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid plum;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: lightskyblue;
+    border-radius: 40px;
+    margin-bottom: 26px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+  
+}
+#taskTitle{
+    font-size: 20px;
+}
+.pic{
+  
+    float: right;
+    background-image: url(notebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30rem;
+    margin-right: 4rem;
+    height: 28rem;
+    margin-top: -28rem;
+}
+
+li button {
+    margin-left: 10px;
+}

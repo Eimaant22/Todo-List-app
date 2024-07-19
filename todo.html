@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Task Application</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <div class="main">
+        
+    
+    <div id="menu">
+        <button onclick="showAddTask()">Add Task</button>
+        <button onclick="showTaskList()">Task List</button>
+        <button onclick="showDeletedTasks()">Deleted Tasks</button>
+    </div>
+    <!-- <div class="pic">
+    </div> -->
+        
+    </div>
+    
+    
+    <i class="fa-solid fa-books pic"></i>
+    <div id="addTask" class="section">
+        <h2>Add Task</h2>
+        <form id="taskForm">
+            <div class="box">
+                <label for="taskTitle">Task Title:</label>
+            <input type="text" id="taskTitle" required></div>
+            <div class="box">
+            <label for="taskDescription">Task Description:</label>
+            <input type="text" id="taskDescription" required><div class="box"></div>
+            <button  class="btn" type="button" onclick="addTask()">Add Task</button></div>
+        </form>
+    </div>
+    <div id="taskList" class="section">
+        <h2>Task List</h2>
+        <ul id="tasks"></ul>
+    </div>
+    <div id="deletedTasks" class="section">
+        <h2>Deleted Tasks</h2>
+        <ul id="deletedTasksList"></ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html> 
